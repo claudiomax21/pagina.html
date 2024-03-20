@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa de Satisfação</title>
+    </head>
+    <body>
+    <h1>Pesquisa de Satisfação</h1>  
+        <form action="pagina_destino.html" method="post">
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" placeholder="Digite seu nome completo" id="nome">
+            </p>
+            <p>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" placeholder="Digite seu e-mail" id="e-mail">
+            </p>
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input type="number" placeholder="Digite seu telefone" id="telefone">
+            </p>
+            <p>
+                Cidade:
+                <select>
+                    <option>Itabira</option>
+                    <option>João Monlevade</option>
+                    <option>Bela Vista de Minas</option>
+                </select>
+            </p>
+            <p>
+                Qual o seu nível de satisfação com a empresa fornecedora de energia elétrica da cidade onde você reside?
+            </p>
+            <p>
+                <input type="radio" id="excelente" name="pergunta 1">
+                <label for="excelente">Excelente</label>
+                <input type="radio" id="bom" name="pergunta 1">
+                <label for="bom">Bom</label>
+                <input type="radio" id="Razoável" name="pergunta 1">
+                <label for="Razoável">Razoável</label>
+                <input type="radio" id="Ruim" name="pergunta 1">
+                <label for="Ruim">Ruim</label>
+                <input type="radio" id="Péssimo" name="pergunta 1">
+                <label for="Péssimo">Péssimo</label>
+            </p>
+            <p>Qual o seu nível de satisfação com a empresa fornecedora de água da cidade onde você reside?
+            </p>
+            <p> 
+                <input type="radio" id="excelente" name="pergunta 2">
+                <label for="excelente">Excelente</label>
+                <input type="radio" id="bom" name="pergunta 2">
+                <label for="bom">Bom</label>
+                <input type="radio" id="Razoável" name="pergunta 2">
+                <label for="Razoável">Razoável</label>
+                <input type="radio" id="Ruim" name="pergunta 2">
+                <label for="Ruim">Ruim</label>
+                <input type="radio" id="Péssimo" name="pergunta 2">
+                <label for="Péssimo">Péssimo</label>
+            </p>    
+            <p>
+                <input type="checkbox" id="compartilhar">
+                <label for="compartilhar">Eu autorizo o compartilhamento da minha resposta.</label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar Pesquisa">
+            </p>
+        </form>
+    </body>
+</html>
